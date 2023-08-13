@@ -1,0 +1,74 @@
+.list-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 6rem;
+    margin: 3rem auto;
+    scroll-behavior: smooth;
+}
+
+.list-table,
+.update-form {
+    width: 80vw;
+    border-radius: 10px;
+    margin: 1rem 6rem;
+    padding: 3rem 2rem;
+    color: white;
+    background: rgba(31, 31, 31, 0.74);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.list-table {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+tr {
+    overflow: scroll;
+}
+
+th {
+    font-size: 1rem;
+    margin: 0;
+}
+
+td {
+    padding: 1rem;
+    overflow-wrap: normal;
+    font-size: 0.7rem;
+}
+
+.btn-update,
+.btn-delete {
+    width: 100px;
+    height: 37px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 5px 10px;
+}
+
+.btn-update {
+    background: #f9ca0d;
+    color: #000;
+}
+
+.btn-delete {
+    background: #f90d0d;
+}
+
+.btn-update:hover,
+.btn-delete:hover {
+    background-color: rgb(212, 38, 140);
+}
